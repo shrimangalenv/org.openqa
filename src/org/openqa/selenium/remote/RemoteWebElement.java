@@ -3,6 +3,7 @@ package org.openqa.selenium.remote;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
 
 public class RemoteWebElement implements WebElement {
@@ -91,10 +92,24 @@ public class RemoteWebElement implements WebElement {
 		return null;
 	}
 
+
 	@Override
-	public String getAccessibleNmae() {
+	public String getAccessibleName() {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	
+
+	@Override
+	public String getCssValue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+	
+
 
 }

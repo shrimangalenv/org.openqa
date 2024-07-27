@@ -13,7 +13,9 @@ public interface WebElement extends SearchContext,TakesScreenshot{
 	String getDomAttribute(String name);
 	String getAttribute(String name);
 	String getDomProperty(String name);
-	String getAccessibleNmae();
+	String getAccessibleName();
+	String getCssValue();
+	
 	
 	
 
