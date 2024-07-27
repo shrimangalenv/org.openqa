@@ -55,6 +55,12 @@ Printspage,Interactive {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	@Override
+	public String getPageSource() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	@Override
 	public String GetWindowHandle() {
@@ -232,6 +238,8 @@ Printspage,Interactive {
 		// TODO Auto-generated method stub
 		
 	}
+
+	
 	
 	
 }

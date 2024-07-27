@@ -8,6 +8,7 @@ public interface WebDriver extends SearchContext {
 	void get(String url);
 	String getURL();
 	String getTitle();
+	String getPageSource();
 	String GetWindowHandle();
 	Set<String> GetWindowHandles();
 	void close();
