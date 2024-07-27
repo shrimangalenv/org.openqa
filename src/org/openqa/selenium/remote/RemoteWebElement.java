@@ -73,4 +73,28 @@ public class RemoteWebElement implements WebElement {
 		return null;
 	}
 
+	@Override
+	public String getDomAttribute(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getAttribute(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getDomProperty(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getAccessibleNmae() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

@@ -10,6 +10,10 @@ public interface WebElement extends SearchContext,TakesScreenshot{
 	boolean isDisplayed();
 	String getText();
 	String getTagName();
+	String getDomAttribute(String name);
+	String getAttribute(String name);
+	String getDomProperty(String name);
+	String getAccessibleNmae();
 	
 	
 
